@@ -1,0 +1,52 @@
+/*for (var i = 1; i <= 10; i++){ 
+    if(i % 2 == 0){
+        console.log(i,"é um número par");
+    } else {
+        console.log(i,"é um número impar");
+    }
+}
+
+var somaIdades = 0;
+
+for (var i = 1; i <= 10; i++){
+    // idade = Number (prompt("Digite a idade do "+i+" aluno: "));
+    somaIdades = somaIdades + somaIdades;
+}
+
+console.log("A média das idades é:, somaIdades/10")
+
+ for (var i = 1; i <= 100; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+console.log(i,"FizzBuzz")
+    }else if(i % 3 == 0){
+        console.log(i,"Fizz");
+    }else if  (i % 5 == 0) {
+        console.log(i,"Buzz")
+    } else{
+        console.log(i)
+    }
+ }
+for (var i = 1; i <= 10; i++){
+    console.log("tabuada de " ,i)
+    for (var l = 1; l <= 10; l++){
+        var k = i*l
+        console.log(i,'x',l,'=',k)
+    }
+}
+
+*/ 
+
+const prompt= require("prompt-sync")()
+
+var inicio = Number(prompt("qual é o inicio"))
+var fim = Number(prompt("qual é o fim"))
+
+for (var i = fim; i >= inicio; i--){
+    console.log(i)
+}
+
+
+
+
+
+
